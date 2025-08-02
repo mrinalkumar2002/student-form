@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+h1{
+    font-size:50px ;
+    text-align: center;
+    line-height: 5rem;
+    margin: 2px;
+    background-color: #79DBD7;
+
+
+}
+p{ 
+    font-size: 30px;
+    text-align: center;
+    line-height: 4rem;
+    margin: 5px;
+
+
+}
+.registration-form{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:0.35rem;
+ 
+   
+
+
+}
+.registration{
+    background-color: #B8E3C9;
+        height: 320px;
+        width: 100%;
+}
+
+input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;
+        width: 300px;
+
+
+}
+button{
+
+    padding: 3px;
+    height: 40px;
+    width: 60px;
+    margin:20px;
+    background-color:  green;
+    color: white;
+    border: none;
+}
+h2{
+    gap: 2rem;
+  text-align: center;
+    margin: 25px;
+    background-color: #F6E090;
+    max-width: 100%;
+   
+}
+
+.scrollbar{
+   max-height: 300px; 
+        overflow-y: auto;
+     
+        border: 1px solid #ccc;
+}
+@media screen and (max-width: 640px) {
+
+    form,
+    .already-registered {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+
+    form,
+    .already-registered{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    form,
+    .already-registered{
+        width: 100%;
+    }
+}
+
+  
+
+.listitem{
+   
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    padding:0 ; border: 2px solid black;
+    margin: 15px;
+    
+}
+.small{
+    gap:5rem;
+  font-size: 5px;
+  
+
+  
+}
+.delete{
+    background-color: black;
+    color: white;
+   
+}
+.edit{
+    background-color: black;
+        color: white;
+
+}
+
+
+
